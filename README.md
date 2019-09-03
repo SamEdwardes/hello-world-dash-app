@@ -22,7 +22,7 @@ pip install dash
 pip install gunicorn
 ```
 
-*I originally used conda to install the libraries but for some reason that resulted in deployment errors. When using pip to install everything worked"
+*I originally used conda to install the libraries but for some reason that resulted in deployment errors. When using pip to install everything worked.*
 
 Save the requirements using pip and conda
 
