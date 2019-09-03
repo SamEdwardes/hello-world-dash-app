@@ -2,6 +2,8 @@
 
 This is a simple dash web app deployed on heroku. The app uses dash, flask, and the MTCars data set.
 
+[https://hello-world-dash-app.herokuapp.com/](https://hello-world-dash-app.herokuapp.com/)
+
 ## Resources
 
 - [Guide from dash](https://dash.plot.ly/deployment) for full details.
