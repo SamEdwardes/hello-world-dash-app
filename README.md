@@ -14,13 +14,20 @@ This is a simple dash web app deployed on heroku.
 **Step 1:** set up the virtual environment
 
 ```
-conda create --name dash-app-env python=3.7
-conda activate dash-app-env
+conda create --name hello-world-dash-app-env python=3.6.8
+conda activate hello-world-dash-app-env
 conda install -c conda-forge dash
 conda install -c plotly plotly
 conda install -c anaconda gunicorn
 conda install -c conda-forge dash
 conda install -c anaconda pandas
+```
+
+Save the requirements using pip and conda
+
+```
+pip freeze > requirements.txt # used by Heroku
+conda list --export > requirements-conda.txt # you can re-use this to create virtual environment
 ```
 
 **Step 2:** set up the git
