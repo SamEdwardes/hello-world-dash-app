@@ -16,12 +16,13 @@ This is a simple dash web app deployed on heroku.
 ```
 conda create --name hello-world-dash-app-env python=3.6.8
 conda activate hello-world-dash-app-env
-conda install -c conda-forge dash
-conda install -c plotly plotly
-conda install -c anaconda gunicorn
-conda install -c conda-forge dash
-conda install -c anaconda pandas
+
+pip install pandas
+pip install dash
+pip install gunicorn
 ```
+
+
 
 Save the requirements using pip and conda
 
