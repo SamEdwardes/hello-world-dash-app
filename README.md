@@ -1,17 +1,15 @@
 ## Background
 
-This is a simple dash web app deployed on heroku.
+This is a simple dash web app deployed on heroku. The app uses dash, flask, and the MTCars data set.
 
 ## Resources
 
 - [Guide from dash](https://dash.plot.ly/deployment) for full details.
-- [YouTube video](https://www.youtube.com/watch?v=9VXrWKrNuoU)
+- [YouTube video](https://www.youtube.com/watch?v=9VXrWKrNuoU) Short YouTube video (5 min) I found helpful explaining how to deploy python apps to Heroku.
 
-## How to create
+## Environment
 
-*Note these steps are not comprehensive*.
-
-**Step 1:** set up the virtual environment
+Use the following code with terminal to create the appropriate environment.
 
 ```
 conda create --name hello-world-dash-app-env python=3.6.8
@@ -28,11 +26,5 @@ Save the requirements using pip and conda
 
 ```
 pip freeze > requirements.txt # used by Heroku
-conda list --export > requirements-conda.txt # you can re-use this to create virtual environment
-```
-
-**Step 2:** push to git
-
-```
-git add .
+conda list --export > requirements-conda.txt # you can re-use this to create virtual environment with conda
 ```
