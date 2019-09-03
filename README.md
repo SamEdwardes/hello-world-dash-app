@@ -22,7 +22,7 @@ pip install dash
 pip install gunicorn
 ```
 
-
+*I originally used conda to install the libraries but for some reason that resulted in deployment errors. When using pip to install everything worked"
 
 Save the requirements using pip and conda
 
@@ -31,8 +31,8 @@ pip freeze > requirements.txt # used by Heroku
 conda list --export > requirements-conda.txt # you can re-use this to create virtual environment
 ```
 
-**Step 2:** set up the git
+**Step 2:** push to git
 
 ```
-git init
+git add .
 ```
