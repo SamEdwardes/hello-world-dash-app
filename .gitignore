@@ -1,4 +1,8 @@
+scratch*.py
 venv
 *.pyc
 .DS_Store
 .env
+scratch*.py
+*.ipynb
+scartch2.py
